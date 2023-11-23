@@ -17,7 +17,7 @@ make filter
 ```
 Isso compilará o projeto e gerará um executável.
 
-##Como Executar
+## Como Executar
 
 Execute o programa fornecendo os arquivos de entrada e saída:
 
