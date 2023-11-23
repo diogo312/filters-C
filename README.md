@@ -29,7 +29,7 @@ Execute o programa fornecendo os arquivos de entrada e saída:
 ```
 Substitua input.bmp pelo nome do arquivo de entrada e output.bmp pelo nome desejado para o arquivo de saída, adicionando a opção do filtro desejado.
 
-##Filtros Implementados
+## Filtros Implementados
 Escala de Cinza (-g)
 O filtro de escala de cinza converte a imagem colorida para tons de cinza, tornando cada pixel uma média ponderada das componentes vermelha, verde e azul.
 
@@ -42,7 +42,7 @@ O filtro de desfoque suaviza a imagem, substituindo cada pixel pela média ponde
 Reflexão (-r)
 O filtro de reflexão inverte a imagem horizontalmente, criando um efeito de espelhamento.
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 bmp.h: Definições e estruturas relacionadas a BMP.
 helpers.c: Funções auxiliares.
 helpers.h: Declarações de funções auxiliares.
