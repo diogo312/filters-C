@@ -26,7 +26,7 @@ Execute o programa fornecendo os arquivos de entrada e saída:
 ./filter -e input.bmp output_edges.bmp
 ./filter -b input.bmp output_blur.bmp
 ./filter -r input.bmp output_reflection.bmp
-./filter -s input.bmp output_reflection.bmp
+./filter -s input.bmp output_sepia.bmp
 ```
 Substitua input.bmp pelo nome do arquivo de entrada e output.bmp pelo nome desejado para o arquivo de saída, adicionando a opção do filtro desejado.
 
