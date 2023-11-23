@@ -43,8 +43,9 @@ Reflexão (-r)
 O filtro de reflexão inverte a imagem horizontalmente, criando um efeito de espelhamento.
 
 ## Estrutura do Projeto
-bmp.h: Definições e estruturas relacionadas a BMP.
-helpers.c: Funções auxiliares.
-helpers.h: Declarações de funções auxiliares.
-filter.c: Código-fonte principal.
-Makefile: Script de compilação.
+
+- `bmp.h`: Definições e estruturas relacionadas a BMP.  
+- `helpers.c`: Funções auxiliares.  
+- `helpers.h`: Declarações de funções auxiliares.  
+- `filter.c`: Código-fonte principal.  
+- `Makefile`: Script de compilação.  
