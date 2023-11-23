@@ -133,3 +133,27 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
 
     return;
 }
+
+void sepia(int height, int width, RGBTRIPLE image[height][width])
+{
+
+    for(int row = 0; row < height; row++)
+    {
+        for(int column = 0; column < width; column++)
+        {
+            int red = image[row][column].rgbtRed;
+            int blue = image[row][column].rgbtBlue;
+            int green = image[row][column].rgbtGreen;
+
+            float sepiaRed = .393 * red + .769 * green + .189 * blue;
+            float sepiaGreen = .349 * red + .686 * green + .168 * blue;
+            float sepiaBlue = .272 * red + .534 * green + .131 * blue;
+            
+            image[row][column].rgbtRed = (int)fmax(0, fmin(255, sepiaRed));
+            image[row][column].rgbtGreen = (int)fmax(0, fmin(255, sepiaGreen));
+            image[row][column].rgbtBlue = (int)fmax(0, fmin(255, sepiaBlue));
+        }
+    }
+
+    return;
+}
