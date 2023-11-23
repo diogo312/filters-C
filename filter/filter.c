@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
 
     // Define allowable filters
-    char *filters = "begr";
+    char *filters = "begrs";
 
     // Get filter flag and check validity
     char filter = getopt(argc, argv, filters);
@@ -118,6 +118,9 @@ int main(int argc, char *argv[])
         // Reflect
         case 'r':
             reflect(height, width, image);
+            break;
+        case 's':
+            sepia(height, width, image);
             break;
     }
 
